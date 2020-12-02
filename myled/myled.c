@@ -1,3 +1,6 @@
+//SPDX-License-Identifer: GPL-2.0
+// *Copyright (c) 2020 Hayato Kanbe. All rights reserved.
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
