@@ -37,32 +37,32 @@ $ sudo chmod 666 /dev/gaming0
 ## 実行結果
 ### fまたはFを入力した場合
 ```sh
-$echo f > /dev/gaming0
+$ echo f > /dev/gaming0
 ```
 または
 ```sh
-$echo F > /dev/gaming0
+$ echo F > /dev/gaming0
 ```
 fまたはFをデバイスファイルに入力すると,冷却ファンがか回転します.
 
 ### gまたはGを入力した場合
 ```sh
-$echo g > /dev/gaming0
+$ echo g > /dev/gaming0
 ```
 または
 ```sh
-$echo G > /dev/gaming0
+$ echo G > /dev/gaming0
 ```
 gまたはGをデバイスファイルに入力すると,3つのLEDを点滅させながら冷却ファンが回転します.<br>
 尚, gとGをでLEDの点滅の仕方が違います.
 
 ### eまたはEを入力した場合
 ```sh
-$echo e > /dev/gaming0
+$ echo e > /dev/gaming0
 ```
 または
 ```sh
-$echo E > /dev/gaming0
+$ echo E > /dev/gaming0
 ```
 eまたはEをデバイスファイルに入力すると,冷却ファンの回転を停止します.
 
