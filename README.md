@@ -19,10 +19,10 @@
 ※個数が書いていない物はそれぞれ1つで大丈夫です.
 
 ## 回路図
-![image](https://user-images.githubusercontent.com/50877609/100971898-256bbf80-357b-11eb-9c59-ed0034a285fe.png)
-全体画像
-![image](https://user-images.githubusercontent.com/50877609/101059979-3ac00880-35d2-11eb-88b9-1d196904395a.png)
-冷却ファンの拡大画像
+![image](https://user-images.githubusercontent.com/50877609/100971898-256bbf80-357b-11eb-9c59-ed0034a285fe.png)<br>
+全体画像<br>
+![image](https://user-images.githubusercontent.com/50877609/101059979-3ac00880-35d2-11eb-88b9-1d196904395a.png)<br>
+冷却ファンの拡大画像<br>
 
 上記の用に回路を組みました.<br>
 トランジスタのベースをGPIO25(緑ケーブル),LEDをそれぞれGPIO16(青ケーブル),GPIO23(黄ケーブル),GPIO26(灰ケーブル)に接続しています.<br>
@@ -75,5 +75,5 @@ $ sudo chmod 666 /dev/gaming0
 
 ## デモ動画
 https://www.youtube.com/watch?v=hODM32MakM8<br>
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hODM32MakM8/0.jpg)](http://www.youtube.com/watch?v=hODM32MakM8)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hODM32MakM8/0.jpg)](http://www.youtube.com/watch?v=hODM32MakM8)<br>
 画像をクリックしても見ることができます.
