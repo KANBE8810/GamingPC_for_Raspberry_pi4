@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0
 
-obj-m := myled.o
+obj-m := gaming.o
 
-myled.ko: myled.c
+gaming.ko: gaming.c
 		make -C /usr/src/linux-headers-`uname -r` M=`pwd` V=1 modules
 
 clean:
