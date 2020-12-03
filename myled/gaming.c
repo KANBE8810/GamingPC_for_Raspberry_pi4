@@ -28,7 +28,7 @@ static ssize_t gaming_write(struct file* filp, const char* buf, size_t count, lo
 		if(copy_from_user(&c,buf,sizeof(char)))
 				return -EFAULT;
 
-		if(c == 'f') {	//Only the electric fan works
+		if(c == 'f' || C =='F') {	//Only the electric fan works
 				gpio_base[7] = 1 << 25;
 		} else if(c == 'G') {	//Similar movement on a gaming PC 1
 				gpio_base[7] = 1 << 25;
