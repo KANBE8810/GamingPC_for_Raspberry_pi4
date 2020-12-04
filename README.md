@@ -5,6 +5,10 @@
 講義内で作成したデバイスドライバを元に,コンデンサを用いて小さい冷却ファンを制御したり,LED3個を点滅させるデバイスドライバを作成しました.<br>
 ゲーミングPCのようにLEDのを点滅させながら,冷却ファンを回転させます.
 
+## デモ動画
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hODM32MakM8/0.jpg)](http://www.youtube.com/watch?v=hODM32MakM8)<br>
+画像をクリックするとYouTubeに飛びます.
+
 ## 用意するもの
 - Raspberry Pi 4 ModelB
 - ミニブレッドボード
@@ -29,8 +33,8 @@
 その際,トランジスタのベースのところに10KΩの抵抗を,各LEDにはそれぞれ330Ωの抵抗を挟んでいます.<br>
 わかりにくいですが,冷却ファンの回路は5.0Vピン(赤ケーブル)からエミッタに接続し,コレクタをGND(白ケーブル)に接続しています.
 GNDに関しては他の場所でも大丈夫です.<br>
-ピンの位置など詳しくは以下のリンクから確認してください.<br>
-https://www.raspberrypi.org/documentation/usage/gpio/README.md
+ピンの位置など詳しくは[こちら](https://www.raspberrypi.org/documentation/usage/gpio/README.md)から確認してください.<br>
+
 
 ## ビルド
 ```sh
@@ -73,7 +77,7 @@ $ sudo chmod 666 /dev/gaming0
   ```
   `e`または`E`をデバイスファイルに入力すると,冷却ファンの回転を停止します.
 
-## デモ動画
-https://www.youtube.com/watch?v=hODM32MakM8<br>
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/hODM32MakM8/0.jpg)](http://www.youtube.com/watch?v=hODM32MakM8)<br>
-画像をクリックしても見ることができます.
+
+---
+# License
+[GNU General Public License v3.0](https://github.com/KANBE8810/GamingPC_for_Raspberry_pi4/blob/master/COPYING)
